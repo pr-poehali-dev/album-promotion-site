@@ -4,14 +4,16 @@ import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
 
 const tracks = [
-  { id: 1, title: "Midnight Dreams", duration: "3:42", url: "" },
-  { id: 2, title: "Echoes of Tomorrow", duration: "4:15", url: "" },
-  { id: 3, title: "Neon Lights", duration: "3:28", url: "" },
-  { id: 4, title: "Solitude", duration: "5:01", url: "" },
-  { id: 5, title: "Digital Rain", duration: "3:55", url: "" },
-  { id: 6, title: "Wavelength", duration: "4:33", url: "" },
-  { id: 7, title: "Reflection", duration: "3:17", url: "" },
-  { id: 8, title: "Final Chapter", duration: "6:22", url: "" },
+  { id: 1, title: "да.дэboshъ!", duration: "2:34", url: "" },
+  { id: 2, title: "xxxxxx", duration: "3:12", url: "" },
+  { id: 3, title: "время на уме", duration: "3:45", url: "" },
+  { id: 4, title: "дельфины", duration: "2:58", url: "" },
+  { id: 5, title: "копоть", duration: "3:21", url: "" },
+  { id: 6, title: "блёвбит!никакой претензионности", duration: "4:02", url: "" },
+  { id: 7, title: "стекло!профессор икс", duration: "3:38", url: "" },
+  { id: 8, title: "мухи", duration: "2:47", url: "" },
+  { id: 9, title: "отрывки памяти type beat", duration: "4:15", url: "" },
+  { id: 10, title: "kodname47!help me", duration: "3:29", url: "" },
 ];
 
 
@@ -220,7 +222,7 @@ export default function Index() {
                   поиска себя в современном мире.
                 </p>
                 <p>
-                  Восемь треков объединены атмосферным звучанием, где электронные
+                  Десять треков объединены атмосферным звучанием, где электронные
                   текстуры переплетаются с живыми инструментами, создавая
                   уникальное звуковое пространство.
                 </p>
@@ -239,7 +241,7 @@ export default function Index() {
                     <Icon name="Music" size={24} className="text-primary" />
                   </div>
                   <div>
-                    <p className="text-2xl font-bold">8</p>
+                    <p className="text-2xl font-bold">10</p>
                     <p className="text-sm text-gray-400">Треков</p>
                   </div>
                 </div>
@@ -251,7 +253,7 @@ export default function Index() {
                     <Icon name="Clock" size={24} className="text-primary" />
                   </div>
                   <div>
-                    <p className="text-2xl font-bold">34:33</p>
+                    <p className="text-2xl font-bold">34:01</p>
                     <p className="text-sm text-gray-400">Длительность</p>
                   </div>
                 </div>
