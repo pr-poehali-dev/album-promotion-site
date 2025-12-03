@@ -125,7 +125,7 @@ export default function Index() {
           <div className="relative group">
             <div className="absolute inset-0 bg-primary/20 blur-3xl group-hover:bg-primary/30 transition-all duration-500" />
             <img
-              src="https://cdn.poehali.dev/projects/ba9f5e8f-1fa0-4d17-91be-0046eb258988/files/83438ad1-0fb5-4655-91c0-bf3a93a6634a.jpg"
+              src="https://cdn.poehali.dev/files/172d875d-4eec-463a-a66d-9f4a3e282a9e.JPG"
               alt="Album Cover"
               className="relative w-full aspect-square object-cover shadow-2xl"
             />
