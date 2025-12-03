@@ -14,12 +14,7 @@ const tracks = [
   { id: 8, title: "Final Chapter", duration: "6:22", url: "" },
 ];
 
-const streamingPlatforms = [
-  { name: "Spotify", icon: "Music", url: "https://spotify.com" },
-  { name: "Apple Music", icon: "Music2", url: "https://music.apple.com" },
-  { name: "YouTube Music", icon: "Play", url: "https://music.youtube.com" },
-  { name: "SoundCloud", icon: "Radio", url: "https://soundcloud.com" },
-];
+
 
 export default function Index() {
   const [currentTrack, setCurrentTrack] = useState<number | null>(null);
@@ -112,16 +107,7 @@ export default function Index() {
                 <Icon name="Play" className="mr-2" size={20} />
                 Слушать
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-black"
-                onClick={() => {
-                  document.getElementById("streaming")?.scrollIntoView({ behavior: "smooth" });
-                }}
-              >
-                На платформах
-              </Button>
+
             </div>
           </div>
 
@@ -276,36 +262,34 @@ export default function Index() {
       </section>
 
       <section id="streaming" className="px-4 py-20 bg-black">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">Слушайте на платформах</h2>
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-6">Связь</h2>
           <p className="text-gray-400 mb-12">
-            Альбом доступен на всех популярных стриминговых сервисах
+            Подписывайтесь на канал в Telegram
           </p>
           
-          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
-            {streamingPlatforms.map((platform) => (
-              <a
-                key={platform.name}
-                href={platform.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group"
-              >
-                <Card className="bg-zinc-900 border-zinc-800 hover:border-primary transition-all p-8 h-full">
-                  <div className="flex flex-col items-center gap-4">
-                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                      <Icon
-                        name={platform.icon as any}
-                        size={32}
-                        className="text-primary"
-                      />
-                    </div>
-                    <p className="font-semibold">{platform.name}</p>
-                  </div>
-                </Card>
-              </a>
-            ))}
-          </div>
+          <a
+            href="https://t.me/your_channel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block group"
+          >
+            <Card className="bg-zinc-900 border-zinc-800 hover:border-primary transition-all p-12 inline-block">
+              <div className="flex items-center gap-6">
+                <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                  <Icon
+                    name="Send"
+                    size={40}
+                    className="text-primary"
+                  />
+                </div>
+                <div className="text-left">
+                  <p className="text-2xl font-bold mb-1">Telegram</p>
+                  <p className="text-gray-400">@your_channel</p>
+                </div>
+              </div>
+            </Card>
+          </a>
         </div>
       </section>
 
