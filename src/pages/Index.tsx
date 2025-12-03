@@ -156,7 +156,7 @@ export default function Index() {
                     </Button>
                     <div>
                       <p className="font-medium text-lg">
-                        {String(index + 1).padStart(2, "0")}. {track.title}
+                        {String(index + 1).padStart(2, "0")}. <span className="text-red-600">{track.title}</span>
                       </p>
                     </div>
                   </div>
@@ -171,7 +171,7 @@ export default function Index() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <p className="font-semibold text-lg">
+                    <p className="font-semibold text-lg text-red-600">
                       {tracks.find((t) => t.id === currentTrack)?.title}
                     </p>
                     <p className="text-sm text-gray-400">Кукурузное поле</p>
