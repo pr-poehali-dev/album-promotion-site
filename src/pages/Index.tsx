@@ -92,8 +92,11 @@ export default function Index() {
       <section className="min-h-screen flex items-center justify-center px-4 py-20">
         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center fade-in">
           <div className="space-y-6">
-            <h1 className="text-6xl md:text-7xl font-bold tracking-tight">
-              MIDNIGHT<br />ECHOES
+            <p className="text-primary text-sm font-medium uppercase tracking-widest mb-4">
+              Кукурузное поле
+            </p>
+            <h1 className="text-6xl md:text-7xl font-bold tracking-tight uppercase">
+              Блëвбит
             </h1>
             <p className="text-xl text-gray-400 font-light">
               Новый альбом уже доступен
@@ -183,7 +186,7 @@ export default function Index() {
                     <p className="font-semibold text-lg">
                       {tracks.find((t) => t.id === currentTrack)?.title}
                     </p>
-                    <p className="text-sm text-gray-400">Midnight Echoes</p>
+                    <p className="text-sm text-gray-400">Кукурузное поле</p>
                   </div>
                   <Button
                     size="icon"
@@ -225,8 +228,8 @@ export default function Index() {
               <h2 className="text-4xl font-bold mb-6">Об альбоме</h2>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  <strong className="text-white">Midnight Echoes</strong> — это
-                  музыкальное путешествие сквозь ночные города и внутренние
+                  <strong className="text-white">Блëвбит</strong> — новый альбом
+                  проекта Кукурузное поле. Музыкальное путешествие сквозь ночные города и внутренние
                   переживания. Альбом исследует темы одиночества, надежды и
                   поиска себя в современном мире.
                 </p>
@@ -308,7 +311,7 @@ export default function Index() {
 
       <footer className="px-4 py-12 bg-zinc-950 border-t border-zinc-900">
         <div className="max-w-4xl mx-auto text-center text-gray-500 text-sm">
-          <p>© 2025 Midnight Echoes. Все права защищены.</p>
+          <p>© 2025 Кукурузное поле. Все права защищены.</p>
         </div>
       </footer>
     </div>
