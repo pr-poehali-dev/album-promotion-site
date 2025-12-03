@@ -269,7 +269,7 @@ export default function Index() {
           </p>
           
           <a
-            href="https://t.me/your_channel"
+            href="https://t.me/kukuruznoyepole"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block group"
@@ -285,7 +285,7 @@ export default function Index() {
                 </div>
                 <div className="text-left">
                   <p className="text-2xl font-bold mb-1">Telegram</p>
-                  <p className="text-gray-400">@your_channel</p>
+                  <p className="text-gray-400">@kukuruznoyepole</p>
                 </div>
               </div>
             </Card>
